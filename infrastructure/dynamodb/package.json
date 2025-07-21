@@ -1,0 +1,14 @@
+{
+  "name": "food-stall-finder-infrastructure",
+  "version": "1.0.0",
+  "description": "Infrastructure setup for Food Stall Finder app",
+  "main": "tables.js",
+  "scripts": {
+    "setup-tables": "node tables.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1382.0",
+    "dotenv": "^16.0.3",
+    "path": "^0.12.7"
+  }
+}
